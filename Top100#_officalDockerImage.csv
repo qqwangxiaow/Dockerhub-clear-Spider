@@ -1,0 +1,556 @@
+MicroServie,Description,Category,Default DockImage,Popularity (Pull),Base of DockerImage,Type of Docker Content OS,LGPL 2.1.,Priority,Upstream Project,Clear Bundle,Clear Package,Use Case,Owner,Default Docker Size,Clear Docker Size,Bundle Size,Potential Clear Advantage,AUFS Relation,Created At,Filter Type,Logo Url,Operating Systems,Star Count,type,Updated_At, Tag,Is In MicroService.xlsx
+nginx,Official build of Nginx.,Application Infrastructure,https://hub.docker.com/_/nginx,10M+,debian:stretch-slim,debian,the 2-clause BSD-like license,,,"web-server-basic,scm-server,pxe-server",nginx,,,109MB,,,,,2017-04-19T13:50:01.539699Z,official,https://d1q6f0aelx0por.cloudfront.net/fa443219-42e0-4886-96b4-8733de694b72-c641a5d6-1ebf-44ee-9607-aef9b4ca1a3b-logo_large.png,linux,11156,image,2019-04-01T08:04:58.509568Z,1.15.10,TRUE
+ubuntu,Ubuntu is a Debian-based Linux operating system based on free software.,Base Images,https://hub.docker.com/_/ubuntu,10M+,scratch,scratch,Ubuntu 'main' and 'restricted' component licence policy,,,,,,,88.9MB,,,,,2016-06-03T16:21:27.736179Z,official,https://d1q6f0aelx0por.cloudfront.net/product-logos/2ee79de2-ebfe-4b84-8eae-3c302a275b88-ubuntu.png,linux,9358,image,2019-04-01T08:05:00.66586Z,18.04,FALSE
+mysql,"MySQL is a widely used, open-source relational database management system (RDBMS).",Databases,https://hub.docker.com/_/mysql,10M+,debian:stretch-slim,debian,Oracle's Privacy Policy,,,,"MySQL-python
+,
+jdk-mysql-connector-java
+,
+perl-DateTime-Format-MySQL
+,
+golang-github-go-sql-driver-mysql",,,477MB,,,,,2016-05-31T21:47:03.703487Z,official,https://d1q6f0aelx0por.cloudfront.net/product-logos/0dd7193f-e747-4a15-b797-818b9fac3656-mysql.png,linux,7972,image,2019-04-01T08:05:07.208829Z,8.0.15,TRUE
+node,Node.js is a JavaScript-based platform for server-side and networking applications.,Application Infrastructure,https://hub.docker.com/_/node,10M+,buildpack-deps:jessie,buildpack-deps,ICU License - ICU 1.8.1 to ICU 57.1,,,,"nodeenv
+,
+nodejs",,,904MB,,,,,2016-06-17T17:45:46.898676Z,official,https://d1q6f0aelx0por.cloudfront.net/product-logos/a8957077-bbcd-41cc-b6d0-2924a1492e99-node.png,linux,7224,image,2019-04-01T08:05:02.615772Z,8.15.1-jessie,FALSE
+redis,Redis is an open source key-value store that functions as a data structure server.,Databases,https://hub.docker.com/_/redis,10M+,debian:stretch-slim,debian,three clause BSD license.,,,"os-testsuite-phoronix-server,os-testsuite-phoronix","redis
+,
+redis-native",,,95MB,,,,,2016-06-17T23:07:46.606083Z,official,https://d1q6f0aelx0por.cloudfront.net/product-logos/89e5782a-76ea-4b94-a561-39e331c281a5-redis.png,linux,6701,image,2019-04-01T08:04:59.285585Z,5.0.4,TRUE
+postgres,The PostgreSQL object-relational database system provides reliability and data integrity.,Databases,https://hub.docker.com/_/postgres,10M+,debian:stretch-slim,debian,"PostgreSQL License, a liberal Open Source license, similar to the BSD or MIT licenses.",,,"koji,openqa,database-basic,synergy,wireshark","postgresql
+,
+jdk-postgresql",,,312MB,,,,,2016-06-01T23:04:41.27079Z,official,https://d1q6f0aelx0por.cloudfront.net/product-logos/a28dcd12-094d-4248-bfcc-f6fb954c7ab8-postgres.png,linux,6385,image,2019-04-01T08:05:01.57909Z,11.2,FALSE
+mongo,MongoDB document databases provide high availability and easy scalability.,Databases,https://hub.docker.com/_/mongo,10M+,ubuntu:xenial,ubuntu,Server Side Public License and Apache license,,,,"mongodb
+,
+mongodict
+,
+rubygem-mongoid
+,
+rubygem-mongo
+,
+rubygem-mongo_mapper",,,409MB,,,,,2016-06-17T23:29:50.117516Z,official,,windows,5732,image,2019-04-01T08:04:57.44282Z,3.4.20-jessie,FALSE
+centos,The official build of CentOS.,Base Images,https://hub.docker.com/_/centos,10M+,scratch,scratch,GNU General Public License,,,,,,,202MB,,,,,2016-06-02T20:18:52.167067Z,official,https://d1q6f0aelx0por.cloudfront.net/product-logos/4fae2c05-6d9d-422a-a317-f501cd0ffd3c-centos.png,linux,5277,image,2019-04-01T08:05:14.905295Z,latest,FALSE
+alpine,A minimal Docker image based on Alpine Linux with a complete package index and only 5 MB in size!,Featured Images,https://hub.docker.com/_/alpine,10M+,scratch,scratch,"PHP-3.01,MIT,BSD-2-Clause,Apache2.0,BSD-2-Clause",,,,,,,5.53MB,,,,,2016-06-03T16:38:49.371406Z,official,https://d1q6f0aelx0por.cloudfront.net/product-logos/2ebdc784-9c22-4b27-adb7-b56079682762-alpine.png,linux,5131,image,2019-04-01T08:05:00.081343Z,20190228,FALSE
+php,"While designed for web development, the PHP scripting language also provides general-purpose use.",Programming Languages,https://hub.docker.com/_/php,10M+,debian:stretch-slim,debian,PHP License v3.01,,,,php,,,367MB,,,,,2016-06-15T21:10:59.5901Z,official,https://d1q6f0aelx0por.cloudfront.net/product-logos/6e8f9c4e-df5a-4832-803f-7949fc7e199c-php.png,linux,4416,image,2019-04-01T08:05:17.653015Z,7.3.3-cli-stretch,FALSE
+jenkins,Official Jenkins Docker image,DevOps Tools,https://hub.docker.com/_/jenkins,10M+,openjdk:8-jdk,openjdk,MIT License,,,,,,,696MB,,,,,2016-06-14T22:28:05.702635Z,official,https://d1q6f0aelx0por.cloudfront.net/product-logos/f5326186-8ae7-425c-a78d-7192dabf75be-jenkins.png,linux,4188,image,2019-04-01T08:05:43.534715Z,latest,FALSE
+python,"Python is an interpreted, interactive, object-oriented, open-source programming language.",Programming Languages,https://hub.docker.com/_/python,10M+,buildpack-deps:stretch,buildpack-deps,Python PSF LICENSE AGREEMENT,,,,"python3
+,
+python
+,
+python2-mod_wsgi
+,
+compat-python36
+,
+msgpack-python
+,
+python-tabulate
+,
+python-magic
+,
+python-neutronclient
+,
+python-saharaclient
+,
+python-memcached
+,
+python-cliapp
+,
+python-creole
+,
+python-subunit
+,
+python-novaclient
+,
+python-ceilometerclient
+,
+python-perf
+,
+python-glanceclient
+,
+python-systemd
+,
+python-pkgconfig
+,
+python-ttystatus
+,
+python-crfsuite
+,
+python-toml
+,
+python-polib
+,
+python-mistralclient
+,
+python-mock
+,
+python-barbicanclient
+,
+qpid-python
+,
+python-openid
+,
+python-mimeparse
+,
+python-hwinfo",,,929MB,,,,,2016-06-09T16:26:25.944324Z,official,https://d1q6f0aelx0por.cloudfront.net/product-logos/6bd224a8-e827-4593-b5b4-483338e9999e-python.png,linux,4026,image,2019-04-01T08:05:15.563233Z,3.8.0a3-stretch,FALSE
+elasticsearch,Elasticsearch is a powerful open source search and analytics engine that makes data easy to explore.,Application Services,https://hub.docker.com/_/elasticsearch,10M+,docker.elastic.co/elasticsearch/elasticsearch:6.7.0,elasticsearch,ELASTIC LICENSE,,,,"elasticsearch
+,
+elasticsearch-py
+,
+elasticsearch-dep",,,810 MB,,,,,2016-06-09T15:03:38.553071Z,official,https://d1q6f0aelx0por.cloudfront.net/product-logos/d21622d7-2cf2-49d6-acae-a8d04a5b64a9-elasticsearch.png,linux,3531,image,2019-04-01T08:05:32.893621Z,6.7.0` (*6/Dockerfile*)](https://github.com/docker-library/elasticsearch/blob/a1a331cbea5676d959fc796d140228d38d691e3d/6/Dockerfile),FALSE
+debian,Debian is a Linux distribution that's composed entirely of free and open-source software.,Base Images,https://hub.docker.com/_/debian,10M+,scratch,scratch,DFSG,,,,,,,101MB,,,,,2016-06-09T21:34:47.746115Z,official,https://d1q6f0aelx0por.cloudfront.net/product-logos/4a4d002e-a9a7-4bbe-b51d-9d780daf8f41-debian.png,linux,3030,image,2019-04-01T08:05:35.445338Z,buster,FALSE
+wordpress,"The WordPress rich content management system can utilize plugins, widgets, and themes.",Application Services,https://hub.docker.com/_/wordpress,10M+,php:7.1-apache,php,GNU Public License,,,,,,,421MB,,,,,2016-06-03T16:25:08.35446Z,official,https://d1q6f0aelx0por.cloudfront.net/product-logos/fcbd05b8-ec7e-4191-80f6-dae8ec3d9d25-wordpress.png,linux,2890,image,2019-04-01T08:05:30.579724Z,5.1.1-php7.1-apache,FALSE
+mariadb,MariaDB is a community-developed fork of MySQL intended to remain free under the GNU GPL.,Databases,https://hub.docker.com/_/mariadb,10M+,ubuntu:bionic,ubunu,"ÿGPL license, version 2.0",,,database-basic,"mariadb
+,
+compat-mariadb-soname18",,,368MB,,,,,2016-06-17T22:50:30.51871Z,official,https://d1q6f0aelx0por.cloudfront.net/product-logos/d8cef0f8-8a8f-4d8f-8efb-e6d40560fc82-mariadb.png,linux,2669,image,2019-04-01T08:05:11.628921Z,10.4.3-bionic,TRUE
+rabbitmq,RabbitMQ is an open source multi-protocol messaging broker.,Messaging Services,https://hub.docker.com/_/rabbitmq,10M+,ubuntu:18.04,ubuntu,Mozilla Public License Vesion 1.1,,,,"rabbitmq-server
+,
+rabbitmq-c
+,
+perl-Mojo-RabbitMQ-Client",,,183MB,,,,,2016-06-09T14:40:31.867702Z,official,https://d1q6f0aelx0por.cloudfront.net/product-logos/d50b96ee-666d-43ce-8d91-d0cbb6f93ffb-rabbitmq.png,linux,2570,image,2019-04-01T08:05:24.319841Z,3.8.0-beta.3,TRUE
+golang,"Go (golang) is a general purpose, higher-level, imperative programming language.",Programming Languages,https://hub.docker.com/_/golang,10M+,buildpack-deps:stretch-scm,buildpack-deps,BSD,,,,"golang-github-golang-lint
+,
+golang-github-golang-glog
+,
+golang-github-deckarep-golang-set
+,
+golang-delve
+,
+buildreq-golang
+,
+golang-github-vishvananda-netns
+,
+golang-github-miekg-dns
+,
+golang-github-tylerb-graceful
+,
+golang-github-gorilla-mux
+,
+golang-github-google-gofuzz
+,
+golang-github-streadway-amqp
+,
+golang-github-hashicorp-serf
+,
+golang-googlecode-go-mobile
+,
+golang-github-docker-libkv
+,
+golang-github-docker-docker
+,
+golang-github-mitchellh-mapstructure
+,
+golang-github-vishvananda-netlink
+,
+golang-github-naoina-toml
+,
+golang-googlecode-go-text
+,
+golang-github-godbus-dbus
+,
+golang-github-fzipp-gocyclo
+,
+golang-github-gorilla-context
+,
+golang-github-stretchr-testify
+,
+golang-github-kisielk-gotool
+,
+golang-github-opencontainers-runc
+,
+golang-github-gorilla-websocket
+,
+golang-googlecode-go-crypto
+,
+golang-googlecode-go-tools
+,
+golang-github-boltdb-bolt
+,
+golang-github-docker-libnetwork",,,774MB,,,,,2016-06-17T16:57:06.804926Z,official,https://d1q6f0aelx0por.cloudfront.net/product-logos/81630ec2-d253-4eb2-b36c-eb54072cb8d6-golang.png,windows,2556,image,2019-04-01T08:05:12.361723Z,1.12.1-stretch,FALSE
+registry,The Docker Registry 2.0 implementation for storing and distributing Docker images,Featured Images,https://hub.docker.com/_/registry,10M+,alpine:3.8,alpine,Apache License 2.0,,,,R-registry,,,25.8MB,,,,,2016-06-14T21:50:12.52638Z,official,https://d1q6f0aelx0por.cloudfront.net/product-logos/644d2f15-c5db-4731-a353-ace6235841fa-registry.png,linux,2498,image,2019-04-01T08:05:09.600786Z,2.7.1,FALSE
+httpd,The Apache HTTP Server Project,Application Infrastructure,https://hub.docker.com/_/httpd,10M+,debian:stretch-slim,debian,"APACHE LICENSE, VERSION 2.0",,,web-server-basic,"httpd
+,
+sphinxcontrib-httpdomain",,,132MB,,,,,2016-06-08T22:32:53.719817Z,official,https://d1q6f0aelx0por.cloudfront.net/product-logos/b078c572-d43d-46e0-9fa2-8e2d31cb5ce2-httpd.png,linux,2395,image,2019-04-01T08:05:00.380781Z,2.4.38,FALSE
+tomcat,Apache Tomcat is an open source implementation of the Java Servlet and JavaServer Pages technologies,Application Infrastructure,https://hub.docker.com/_/tomcat,10M+,openjdk:7-jre,openjdk,"APACHE LICENSE, VERSION 2.0",,,,,,,463MB,,,,,2016-06-15T21:32:04.054684Z,official,https://d1q6f0aelx0por.cloudfront.net/product-logos/56c8514a-eb15-4cc5-8e5e-3b89e7a408fa-tomcat.png,linux,2327,image,2019-04-01T08:05:36.673524Z,7.0.93-jre7,FALSE
+java,,Base Images,https://hub.docker.com/_/java,10M+,,,GPL license Version 2.0,,,,"jdk-JavaEWAH
+,
+perl-JavaScript-Minifier-XS
+,
+jdk-javacc
+,
+javapackages-tools
+,
+jdk-javassist
+,
+jdk-javamail
+,
+jdk-selenium-java
+,
+jdk-javacc-maven-plugin
+,
+jdk-chill-java
+,
+jdk-maven-javadoc-plugin
+,
+jdk-protobuf-java
+,
+jdk-snappy-java
+,
+jdk-mysql-connector-java
+,
+jdk-javax.ws.rs-api",,,643MB,,,,,2017-10-05T05:10:35.675141Z,official,,[],1964,image,2019-04-01T08:06:44.714411Z,,FALSE
+ruby,"Ruby is a dynamic, reflective, object-oriented, general-purpose, open-source programming language.",Programming Languages,https://hub.docker.com/_/ruby,10M+,buildpack-deps:stretch,buildpack-deps,the 2-clause BSDL,,,,"ruby
+,
+rubygem-rubytest
+,
+rubygem-rubyzip
+,
+rubygem-rubyforge
+,
+rubygem-ruby-progressbar
+,
+rubygem-ruby-beautify
+,
+rubygem-rubygems-tasks
+,
+rubygem-bcrypt-ruby
+,
+rubygem-hoe-rubygems
+,
+rubygem-ruby-prof
+,
+rubygem-latest_ruby
+,
+rubygem-ruby-rc4
+,
+rubygem-rubytest-cli
+,
+rubygem-simplecov-sublime-ruby-coverage
+,
+rubygems
+,
+rubygem-flexmock
+,
+rubygem-fakeweb
+,
+rubygem-globalid
+,
+rubygem-gherkin
+,
+rubygem-eventmachine
+,
+rubygem-erubis
+,
+rubygem-nokogumbo
+,
+rubygem-rails
+,
+rubygem-ronn
+,
+rubygem-shindo
+,
+rubygem-slim
+,
+rubygem-shoulda
+,
+rubygem-temple
+,
+rubygem-timers
+,
+rubygem-actionpack",,,870MB,,,,,2016-06-01T23:32:29.061341Z,official,https://d1q6f0aelx0por.cloudfront.net/product-logos/c21ccc13-b1e4-4523-b0af-af41f8a3bd7c-ruby.png,linux,1643,image,2019-04-01T08:05:33.438763Z,2.6.2-stretch,FALSE
+openjdk,"OpenJDK is an open-source implementation of the Java Platform, Standard Edition",Programming Languages,https://hub.docker.com/_/openjdk,10M+,oraclelinux:7-slim,oraclelinux,General Public License Version 2.0,,,,"openjdk9
+,
+openjdk11
+,
+openjdk10
+,
+openjdk",,,470MB,,,,,2017-01-24T22:25:00.405444Z,official,https://d1q6f0aelx0por.cloudfront.net/openjdk2.png,linux,1581,image,2019-04-01T08:05:25.133104Z,13-ea-14-jdk-oraclelinux7,FALSE
+busybox,Busybox base image.,Base Images,https://hub.docker.com/_/busybox,10M+,scratch,scratch,"GNU General Public License, version 2",,,,busybox,,,1.2MB,,,,,2016-06-01T23:29:38.220032Z,official,https://d1q6f0aelx0por.cloudfront.net/product-logos/9e7c9993-b0d0-4f24-a12a-1fb7ef7638f0-busybox.png,linux,1542,image,2019-04-01T08:04:56.884379Z,1.30.1-uclibc,FALSE
+kibana,Kibana gives shape to any kind of data ? structured and unstructured ? indexed in Elasticsearch.,,https://hub.docker.com/_/kibana,10M+,docker.elastic.co/elasticsearch/elasticsearch:6.7.0,elasticsearch,Elastic License,,,,,,,675MB,,,,,2018-09-21T18:01:06.780966Z,official,,linux,1436,image,2019-04-01T08:05:47.048945Z,6.7.0` (*6/Dockerfile*)](https://github.com/docker-library/kibana/blob/e085150e59f3a1c292e417c7adbc97fbb5cd9f1b/6/Dockerfile),TRUE
+logstash,Logstash is a tool for managing events and logs.,Analytics,https://hub.docker.com/_/logstash,10M+,docker.elastic.co/elasticsearch/elasticsearch:6.7.0,elasticsearch,Elastic License,,,,,,, 776 MB,,,,,2016-06-16T21:00:03.111462Z,official,https://d1q6f0aelx0por.cloudfront.net/product-logos/0ab7e1e6-e670-4d05-a8e6-82a944fbf709-logstash.png,linux,1366,image,2019-04-01T08:05:41.847704Z,6.7.0` (*6/Dockerfile*)](https://github.com/docker-library/logstash/blob/40ea47940cb4bf309f2633238ffe434192d262d0/6/Dockerfile),FALSE
+memcached,"Free & open source, high-performance, distributed memory object caching system.",Storage,https://hub.docker.com/_/memcached,10M+,debian:stretch-slim,debian,BSD,,,,"memcached
+,
+python-memcached",,,62.2MB,,,,,2016-06-17T22:54:28.567116Z,official,https://d1q6f0aelx0por.cloudfront.net/product-logos/de041504-0ddb-43f6-b89e-fe04403cca8d-memcached.png,linux,1289,image,2019-04-01T08:05:07.605371Z,1.5.12,FALSE
+haproxy,"HAProxy - The Reliable, High Performance TCP/HTTP Load Balancer",Application Infrastructure,https://hub.docker.com/_/haproxy,10M+,debian:stretch-slim,debian,GNU General PublicÿLicenseÿVersion 2,,,,haproxy,,,72.1MB,,,,,2016-06-09T14:22:05.264691Z,official,https://d1q6f0aelx0por.cloudfront.net/product-logos/74753c28-31a5-46fa-88c1-5336bdb2e989-haproxy.png,linux,1183,image,2019-04-01T08:05:30.047092Z,1.9.6,FALSE
+sonarqube,SonarQube is an open source platform for continuous inspection of code quality.,DevOps Tools,https://hub.docker.com/_/sonarqube,10M+,openjdk:8,openjdk,GNU LESSER GENERAL PUBLIC  LICENSE  Version 3,,,,,,,875MB,,,,,2016-06-02T22:07:48.200631Z,official,https://d1q6f0aelx0por.cloudfront.net/product-logos/182edbf8-40a5-4bdb-804d-58c41995645c-sonarqube.png,linux,1124,image,2019-04-01T08:05:45.254799Z,6.7.6-community,FALSE
+owncloud,ownCloud is a self-hosted file sync and share server.,Storage,https://hub.docker.com/_/owncloud,10M+,php:7.2-apache,php,ÿAffero GNU PublicÿLicenseÿVersion 3ÿ,,,,,,,618MB,,,,,2016-06-15T22:02:11.477976Z,official,https://d1q6f0aelx0por.cloudfront.net/product-logos/24f2a51f-4b42-4dea-98c5-6bb9603c1b4e-owncloud.png,linux,1029,image,2019-04-01T08:05:52.828281Z,10.0.10-apache,FALSE
+docker,Docker in Docker!,Featured Images,https://hub.docker.com/_/docker,10M+,alpine:3.9,alpine,Apache License 2.0,,,,"docker
+,
+golang-github-docker-docker
+,
+dockerpty
+,
+docker-py
+,
+docker-upstream
+,
+dockerpy-creds
+,
+nova-docker
+,
+docker-pycreds
+,
+docker-compose
+,
+golang-github-docker-distribution
+,
+golang-github-docker-libnetwork
+,
+clear-containers-docker
+,
+golang-github-docker-libkv
+,
+golang-github-docker-go-units
+,
+golang-github-docker-go-connections
+,
+golang-github-docker-engine-api",,,171MB,,,,,2016-06-17T23:09:16.794162Z,official,https://d1q6f0aelx0por.cloudfront.net/product-logos/75765bad-5683-40e7-b4cb-cdd4f7cc9b9e-docker.png,linux,1019,image,2019-04-01T08:05:09.881999Z,18.09.4,FALSE
+swarm,Swarm: a Docker-native clustering system.,Application Infrastructure,https://hub.docker.com/_/swarm,10M+,scratch,scratch,Apache License 2.0,,,,,,,12.7MB,,,,,2016-06-15T01:38:24.420269Z,official,https://d1q6f0aelx0por.cloudfront.net/product-logos/3a29d766-ea80-400c-b981-7f6c02d36fd8-swarm.png,linux,970,image,2019-04-01T08:05:45.550329Z,1.2.9,FALSE
+ghost,Ghost is a free and open source blogging platform written in JavaScript,Application Services,https://hub.docker.com/_/ghost,10M+,node:10-slim,node,MIT License,,,,ghostscript,,,555MB,,,,,2016-06-17T17:40:52.086415Z,official,https://d1q6f0aelx0por.cloudfront.net/product-logos/4b220cf1-eb6f-4843-8c95-c135e9d8dd7d-ghost.png,linux,947,image,2019-04-01T08:05:43.839782Z,2.19.1,FALSE
+cassandra,Apache Cassandra is an open-source distributed storage system.,Databases,https://hub.docker.com/_/cassandra,10M+,debian:stretch-slim,debian,Apache License 2.0,,,,,,,323MB,,,,,2016-06-16T19:29:42.643562Z,official,https://d1q6f0aelx0por.cloudfront.net/product-logos/7b4c1bb0-6912-43d4-898f-79d485173c55-cassandra.png,linux,947,image,2019-04-01T08:05:47.408121Z,2.1.21,FALSE
+nextcloud,A safe home for all your data,Application Frameworks,https://hub.docker.com/_/nextcloud,10M+,php:7.2-apache-stretch,php," AGPL XML/RPC:,MIT,GPL v3+",,,,,,,598MB,,,,,2017-04-16T17:55:07.611702Z,official,https://d1q6f0aelx0por.cloudfront.net/product-logos/nextcloud.png,linux,895,image,2019-04-01T08:05:38.852327Z,13.0.12-apache,FALSE
+hello-world,,,https://hub.docker.com/_/hello-world,10M+,,,MIT License,,,,,,,1.84kB,,,,,2016-06-17T22:51:49.820736Z,official,https://d1q6f0aelx0por.cloudfront.net/product-logos/5431a80b-9ab9-486c-906a-e3d4b5ccaa96-hello-world.png,linux,870,image,2019-04-01T08:06:42.855678Z,,FALSE
+consul,"Consul is a datacenter runtime that provides service discovery, configuration, and orchestration.",Application Infrastructure,https://hub.docker.com/_/consul,10M+,alpine:3.7,alpine,"Mozilla Public License, version 2.0",,,,,,,107MB,,,,,2016-06-01T00:00:06.374247Z,official,https://d1q6f0aelx0por.cloudfront.net/product-logos/consul.svg,linux,870,image,2019-04-01T08:05:15.158433Z,1.4.4,FALSE
+traefik,"Traefik, The Cloud Native Edge Router",Application Infrastructure,https://hub.docker.com/_/traefik,10M+,scratch,scratch,MIT License,,,,,,,70.2MB,,,,,2016-06-09T22:15:04.710148Z,official,https://d1q6f0aelx0por.cloudfront.net/product-logos/fc7881bf-43a8-45dc-b3da-c4c4a8f29494-traefik.png,linux,839,image,2019-04-01T08:05:08.432566Z,v2.0.0-alpha3,FALSE
+maven,Apache Maven is a software project management and comprehension tool.,DevOps Tools,https://hub.docker.com/_/maven,10M+,openjdk:11-jdk-slim,openjdk,"APACHE LICENSE, VERSION 2.0",,,,"apache-maven2
+,
+apache-maven
+,
+maven-dep
+,
+jdk-maven-verifier
+,
+jdk-maven-invoker-plugin
+,
+jdk-maven-assembly-plugin
+,
+jdk-maven-shared-io
+,
+jdk-maven-bundle-plugin
+,
+jdk-maven-parent
+,
+jdk-maven-filtering
+,
+jdk-maven-scm
+,
+jdk-maven-artifact-transfer
+,
+jdk-maven-plugins
+,
+jdk-maven-shared-utils
+,
+jdk-maven-compiler-plugin
+,
+jdk-maven-shared-components
+,
+jdk-maven-script-interpreter
+,
+jdk-maven-shared-incremental
+,
+jdk-maven-javadoc-plugin
+,
+jdk-maven-reporting-exec
+,
+jdk-maven-antrun-plugin
+,
+jdk-scalatest-maven-plugin
+,
+jdk-maven-archiver
+,
+jdk-scalastyle-maven-plugin
+,
+jdk-maven-artifact-resolver
+,
+jdk-maven-jar-plugin
+,
+jdk-maven-install-plugin
+,
+jdk-buildnumber-maven-plugin
+,
+jdk-maven-dependency-analyzer
+,
+jdk-maven-resources-plugin",,,831MB,,,,,2016-06-01T23:30:59.247133Z,official,https://d1q6f0aelx0por.cloudfront.net/product-logos/b14d466e-356f-4b00-bc4e-af5e8284a1bd-maven.png,linux,830,image,2019-04-01T08:05:41.128487Z,3.6.0-jdk-11-slim,FALSE
+django,"Django is a free web application framework, written in Python.",,https://hub.docker.com/_/django,10M+,python:3.4-slim,python,BSD,,,,"Django
+,
+django-babel
+,
+django-nose
+,
+django-pyscss
+,
+django_compressor
+,
+django-appconf
+,
+django_openstack_auth
+,
+django-discover-runner",,,436MB,,,,,2018-09-21T18:02:01.182713Z,official,,linux,805,image,2019-04-01T08:06:07.120153Z,1.10.4-python3,FALSE
+fedora,Official Docker builds of Fedora,Base Images,https://hub.docker.com/_/fedora,10M+,scratch,scratch,GNU General Public License ,,,,,,,275MB,,,,,2016-06-13T16:36:50.685766Z,official,https://d1q6f0aelx0por.cloudfront.net/product-logos/9dd6e1eb-07b5-4b36-951e-4c311d330013-fedora.png,linux,780,image,2019-04-01T08:05:51.943224Z,29` (*x86_64//Dockerfile*),FALSE
+influxdb,"InfluxDB is an open source time series database for recording metrics, events, and analytics.",Databases,https://hub.docker.com/_/influxdb,10M+,buildpack-deps:stretch-curl,buildpack-deps,MIT License,,,,influxdb,,,239MB,,,,,2016-06-09T22:58:22.07804Z,official,https://d1q6f0aelx0por.cloudfront.net/product-logos/867a4269-0838-456b-9db8-1ab1465f9706-influxdb.png,linux,724,image,2019-04-01T08:05:34.849345Z,1.5,TRUE
+redmine,Redmine is a flexible project management web application written using Ruby on Rails framework,Application Services,https://hub.docker.com/_/redmine,10M+,ruby:2.6-slim-stretch,ruby,GNU General Public License v2 .0,,,,,,,574MB,,,,,2016-06-01T23:32:36.12041Z,official,https://d1q6f0aelx0por.cloudfront.net/product-logos/92de5ad2-abdf-4f93-928f-a29d422e36b1-redmine.png,linux,715,image,2019-04-01T08:06:04.826909Z,4.0.2,FALSE
+neo4j,"Neo4j is a highly scalable, robust native graph database.",Databases,https://hub.docker.com/_/neo4j,10M+,openjdk:8-jre-alpine,openjdk,GPL license Version 3.0,,,,,,,203MB,,,,,2016-06-09T20:42:23.465943Z,official,https://d1q6f0aelx0por.cloudfront.net/product-logos/2cd4f81a-e285-4ede-9d9f-99c2349bdd4b-neo4j.png,linux,646,image,2019-04-01T08:05:48.214836Z,3.5.3,FALSE
+solr,"Solr is the popular, blazing-fast, open source enterprise search platform built on Apache Lucene?.",Analytics,https://hub.docker.com/_/solr,10M+,openjdk:11-jre-stretch,openjdk,Apache License 2.0,,,,R-solrium,,,684MB,,,,,2016-06-01T23:28:19.03857Z,official,https://d1q6f0aelx0por.cloudfront.net/product-logos/eaa67506-b2ef-4452-a3bf-01c4e1761a6e-solr.png,linux,645,image,2019-04-01T08:05:53.51937Z,7.7.1,FALSE
+drupal,Drupal is an open source content management platform powering millions of websites and applications.,Application Frameworks,https://hub.docker.com/_/drupal,10M+,php:7.2-apache,php,GNU General Public License,,,,,,,447MB,,,,,2016-06-16T19:35:03.088129Z,official,https://d1q6f0aelx0por.cloudfront.net/product-logos/0e028fcb-e7b7-4f24-9362-bd98442c60cf-drupal.png,linux,635,image,2019-04-01T08:05:45.764092Z,8.6.13-apache,FALSE
+zookeeper,Apache ZooKeeper is an open-source server which enables highly reliable distributed coordination.,Application Frameworks,https://hub.docker.com/_/zookeeper,10M+,openjdk:8-jre-alpine,openjdk,Apache License 2.0,,,,"jdk-zookeeper
+,
+zookeeper-dep
+,
+apache-zookeeper",,,150MB,,,,,2017-04-16T17:31:57.713365Z,official,https://d1q6f0aelx0por.cloudfront.net/product-logos/zookeeper.png,linux,614,image,2019-04-01T08:05:56.197745Z,3.4.13,FALSE
+amazonlinux,"Amazon Linux provides a stable, secure, and high-performance execution environment for applications.",Base Images,https://hub.docker.com/_/amazonlinux,10M+,scratch,scratch,"ÿGNU General Public License, version 2.0.",,,,,,,162MB,,,,,2016-11-28T17:30:43.551461Z,official,https://d1q6f0aelx0por.cloudfront.net/product-logos/0f948395-8b79-4788-a10c-cc5ffe1a559d-amazon.png,linux,606,image,2019-04-01T08:05:54.19335Z,2.0.20190228,FALSE
+rethinkdb,"RethinkDB is an open-source, document database that makes it easy to build and scale realtime apps.",Databases,https://hub.docker.com/_/rethinkdb,10M+,debian:jessie,debian,GNU AFFERO GENERAL PUBLIC LICENSE VERSION 3,,,,,,,184MB,,,,,2016-06-09T14:40:26.379127Z,official,https://d1q6f0aelx0por.cloudfront.net/product-logos/84c2f851-5508-4556-9d34-8114c9725693-rethinkdb.png,linux,496,image,2019-04-01T08:05:52.16385Z,2.3.6,FALSE
+vault,Vault is a tool for securely accessing secrets via a unified interface and tight access control.,Application Services,https://hub.docker.com/_/vault,10M+,alpine:3.8,alpine,"Mozilla Public License, version 2.0",,,,plasma-vault,,,108MB,,,,,2017-04-16T17:01:34.99394Z,official,https://user-images.githubusercontent.com/2453622/54834310-282a6200-4c7d-11e9-8c33-f42be81553a1.png,linux,475,image,2019-04-01T08:05:47.718402Z,1.1.0,FALSE
+buildpack-deps,"A collection of common build dependencies used for installing various modules, e.g., gems.",Base Images,https://hub.docker.com/_/buildpack-deps,10M+,ubuntu:bionic,ubuntu,GNU General Public License,,,,,,,836MB,,,,,2016-06-09T22:01:24.121347Z,official,https://d1q6f0aelx0por.cloudfront.net/product-logos/adaa4ee6-2f85-4264-aa4f-730f5a31baaa-buildpack-deps.png,linux,437,image,2019-04-01T08:05:51.182046Z,bionic-curl,FALSE
+percona,Percona Server is a fork of the MySQL relational database management system created by Percona.,Application Infrastructure,https://hub.docker.com/_/percona,10M+,centos:7,centos,GNU Public License,,,,,,,583MB,,,,,2016-06-01T23:26:53.883153Z,official,https://d1q6f0aelx0por.cloudfront.net/product-logos/db001106-c84b-46f7-8278-cd60431479f0-percona.png,linux,425,image,2019-04-01T08:05:54.738419Z,8.0.15-5-centos,FALSE
+mongo-express,"Web-based MongoDB admin interface, written with Node.js and express",DevOps Tools,https://hub.docker.com/_/mongo-express,10M+,node:8-alpine,node,MiT License,,,,,,,96MB,,,,,2016-05-31T21:28:04.235031Z,official,https://d1q6f0aelx0por.cloudfront.net/product-logos/f80f66d3-d812-48e5-8d6f-e248b25e3dce-mongo-express.png,linux,415,image,2019-04-01T08:06:07.742279Z,0.49.0,FALSE
+rocket-chat,The Complete Open Source Chat Solution,,https://hub.docker.com/_/rocket-chat,10M+,debian.jessie-slim,,MIT License,,,,,,,751 MB,,,,,2018-09-21T18:35:02.657282Z,official,https://d1q6f0aelx0por.cloudfront.net/product-logos/db001106-c84b-46f7-8278-cd60431479f0-percona.png,linux,399,image,2019-04-01T08:05:55.155187Z,0.74.3,FALSE
+couchbase,Couchbase Server is a NoSQL document database with a distributed architecture.,Storage,https://hub.docker.com/_/couchbase,10M+,ubuntu:16.04,ubuntu,Apache License 2.0,,,,,,,940MB,,,,,2016-06-16T00:00:00Z,official,https://d1q6f0aelx0por.cloudfront.net/product-logos/0d32108f-9feb-4fd8-9af3-5ae6baff0090-67b8fe05-d2d0-4e4d-8224-22cfd7ae4f73-baf18caf-b63c-427f-970c-5c5aac7b2f99-logo-large.png,linux,391,image,2019-04-01T08:05:59.793131Z,latest,FALSE
+composer,Composer is a dependency manager written in and for PHP.,Application Frameworks,https://hub.docker.com/_/composer,10M+,php:7-alpine3.8,php,MIT License,,,,,,,157MB,,,,,2017-04-16T18:19:16.506722Z,official,https://d1q6f0aelx0por.cloudfront.net/product-logos/composer.png,linux,382,image,2019-04-01T08:06:12.123594Z,1.8.4,FALSE
+mono,Mono is an open source implementation of Microsoft's .NET Framework,Application Frameworks,https://hub.docker.com/_/mono,10M+,mono:5.18.1.0-slim,mono,ÿGNU General Public License v2ÿ(GPL).,,,,,,,683MB,,,,,2016-06-17T17:59:45.886059Z,official,https://d1q6f0aelx0por.cloudfront.net/product-logos/51cc4ee1-0aee-43bc-a238-ffa4273f5ae7-mono.png,linux,338,image,2019-04-01T08:06:06.627688Z,5.18.1.0,FALSE
+elixir,"Elixir is a dynamic, functional language for building scalable and maintainable applications.",Programming Languages,https://hub.docker.com/_/elixir,10M+,erlang:21,erlang,ÿApache License 2.0,,,,,,,1.08GB,,,,,2016-06-01T23:23:41.401663Z,official,https://d1q6f0aelx0por.cloudfront.net/product-logos/cb773227-1c2c-42a4-a527-12e6f827c1d2-elixir.png,linux,328,image,2019-04-01T08:06:08.6434Z,1.8.1,FALSE
+kong,The Cloud-Native API Gateway & Service Mesh for APIs and Microservices,Application Frameworks,https://hub.docker.com/_/kong,10M+,alpine:3.6,alpine,Apache License 2.0,,,,,,,98.4MB,,,,,2017-04-16T17:28:09.523375Z,official,https://user-images.githubusercontent.com/13873429/50716263-b7888780-1035-11e9-900b-7e73dbce53c7.png,linux,314,image,2019-04-01T08:05:44.818848Z,1.1.1-alpine,FALSE
+jetty,Jetty provides a Web server and javax.servlet container.,Application Infrastructure,https://hub.docker.com/_/jetty,10M+,openjdk:11-jre,openjdk,ApacheÿLicenseÿ2.0 and Eclipse PublicÿLicenseÿ1.0,,,,"jdk-jetty92
+,
+jdk-jetty
+,
+jdk-mortbay-jetty
+,
+jdk-eclipse-jetty-parent",,,454MB,,,,,2016-06-01T23:28:35.731183Z,official,https://d1q6f0aelx0por.cloudfront.net/product-logos/54a932ad-6239-475a-a967-1a817a7318b6-jetty.png,linux,294,image,2019-04-01T08:06:05.253726Z,9.4.14-jre11,FALSE
+swift,"Swift is a high-performance system programming language, to learn more about Swift visit swift.org.",Base Images,https://hub.docker.com/_/swift,10M+,ubuntu:18.04,ubuntu,ÿApache License 2.0,,,,"swift
+,
+python-swiftclient",,,1.81GB,,,,,2017-04-17T16:32:56.982799Z,official,https://d1q6f0aelx0por.cloudfront.net/product-logos/swift.png,linux,281,image,2019-04-01T08:06:11.893834Z,5.0,FALSE
+eclipse-mosquitto,Eclipse Mosquitto is an open source message broker which implements MQTT version 3.1 and 3.1.1,Application Services,https://hub.docker.com/_/eclipse-mosquitto,10M+,alpine:3.8,alpine,Eclipse Public License - v 1.0,,,,,,,4.78MB,,,,,2017-04-17T14:41:12.833427Z,official,https://d1q6f0aelx0por.cloudfront.net/product-logos/eclipse-mosquitto.png,linux,272,image,2019-04-01T08:05:47.992412Z,1.5.8,FALSE
+perl,"Perl is a high-level, general-purpose, interpreted, dynamic programming language.",Programming Languages,https://hub.docker.com/_/perl,10M+,buildpack-deps:stretch,buildpack-deps,GNU General Public License,,,,"perl
+,
+perl-Perl6-Export
+,
+perl-PerlIO-eol
+,
+perl-PerlIO-gzip
+,
+perl-PerlIO-via-Timeout
+,
+perl-Perl4-CoreLibs
+,
+perl-PerlIO-utf8_strict
+,
+perl-Perl-Version
+,
+perl-libwww-perl
+,
+perl-Modern-Perl
+,
+perl-Perl-Tidy
+,
+perl-Devel-PatchPerl
+,
+perl-CPAN-Perl-Releases
+,
+perl-Term-Size-Perl
+,
+perl-Log-Log4perl
+,
+perl-aliased
+,
+perl-autovivification
+,
+perl-boolean
+,
+perl-Event
+,
+perl-autobox
+,
+perl-Dumbbench
+,
+perl-JSON
+,
+perl-Moo
+,
+perl-Specio
+,
+perl-DBI
+,
+perl-curry
+,
+perl-prefork
+,
+perl-Pegex
+,
+perl-URI
+,
+perl-CGI",,,891MB,,,,,2016-06-01T23:31:12.170007Z,official,https://d1q6f0aelx0por.cloudfront.net/product-logos/a340274a-760a-4dd3-b7a6-1a8299d9388c-perl.png,linux,259,image,2019-04-01T08:05:52.402177Z,latest,FALSE
+telegraf,Telegraf is an agent for collecting metrics and writing them to InfluxDB or other outputs.,DevOps Tools,https://hub.docker.com/_/telegraf,10M+,buildpack-deps:stretch-curl,buildpack-deps,MIT License,,,,,,,244MB,,,,,2016-06-09T23:08:47.044634Z,official,https://d1q6f0aelx0por.cloudfront.net/product-logos/a466675f-20cc-458c-9383-94f284ef3d9d-telegraf.png,linux,251,image,2019-04-01T08:05:42.26499Z,1.8,FALSE
+erlang,Erlang is a programming language used to build massively scalable systems with high availability.,Programming Languages,https://hub.docker.com/_/erlang,10M+,buildpack-deps:stretch,buildpack-deps,ÿApache License 2.0,,,,,,,1.07GB,,,,,2016-06-01T23:32:04.578912Z,official,https://d1q6f0aelx0por.cloudfront.net/product-logos/9be08467-a890-460f-8a96-4b098a368fb7-erlang.png,linux,233,image,2019-04-01T08:06:03.675737Z,21.3.2,FALSE
+adminer,Database management in a single PHP file.,Databases,https://hub.docker.com/_/adminer,10M+,php:7.3-alpine,php,Apache License 2.0 or GPL 2,,,,,,,83.2MB,,,,,2017-04-17T14:43:08.294286Z,official,https://d1q6f0aelx0por.cloudfront.net/product-logos/adminer.png,linux,232,image,2019-04-01T08:05:59.469389Z,4.7.1-standalone,FALSE
+websphere-liberty,Official IBM WebSphere Application Server for Developers Liberty image.,,https://hub.docker.com/_/websphere-liberty,10M+,ibmjava:8-jre,ibmjava,ÿApache License 2.0,,,,,,,623MB,,,,,2018-11-30T01:42:27.015459Z,official,https://user-images.githubusercontent.com/10937106/49304823-4f68e380-f482-11e8-8e01-b0801889219b.png,linux,226,image,2019-04-01T08:06:09.202913Z,19.0.0.3-kernel,FALSE
+nats,"NATS is an open-source, high-performance, cloud native messaging system.",Application Services,https://hub.docker.com/_/nats,10M+,scratch,scratch,Apache License 2.0,,,,R-natserv,,,8.08MB,,,,,2017-05-18T02:28:00.688204Z,official,https://d1q6f0aelx0por.cloudfront.net/product-logos/eba063d9-5a8f-42ed-9807-82d73acccb04-51d1b7a6-60cf-4a57-927a-fdfc3dfaab2f-4cf04214-ad47-4f54-ad62-99cf271a82b3-logo-large.png,,220,image,2019-04-01T08:05:54.464797Z,1.4.1-linux,TRUE
+joomla,Joomla! is an open source content management system.,Application Services,https://hub.docker.com/_/joomla,10M+,php:7.1-apache,php,GNU GENERAL PUBLIC LICENSE Version 2.0,,,,,,,415MB,,,,,2016-06-14T21:48:15.343296Z,official,https://d1q6f0aelx0por.cloudfront.net/product-logos/72fef364-fef8-468e-8427-4f76c9d3cb4e-joomla.png,linux,220,image,2019-04-01T08:06:00.327085Z,3.9.4-apache,FALSE
+gradle,Gradle is a build tool with a focus on build automation and support for multi-language development.,Application Frameworks,https://hub.docker.com/_/gradle,10M+,openjdk:8-jdk,openjdk,Apache License 2.0,,,,"gradle
+,
+gradle-dep",,,725MB,,,,,2017-04-17T16:30:06.391342Z,official,https://d1q6f0aelx0por.cloudfront.net/product-logos/gradle.png,linux,190,image,2019-04-01T08:05:48.645688Z,5.3.1-jdk8,FALSE
+pypy,"PyPy is a fast, compliant alternative implementation of the Python language.",Programming Languages,https://hub.docker.com/_/pypy,10M+,buildpack-deps:jessie,buildpack-deps,The MIT License,,,,pypy,,,962MB,,,,,2016-06-17T22:57:44.765901Z,official,https://d1q6f0aelx0por.cloudfront.net/product-logos/1d2ebdfc-9d47-472d-b8b5-91db0ec78297-pypy.png,linux,175,image,2019-04-01T08:06:05.862997Z,2.7-7.1.0,FALSE
+bash,Bash is the GNU Project's Bourne Again SHell,Programming Languages,https://hub.docker.com/_/bash,10M+,alpine:3.9,alpine,"GNU General Public License, version 3.",,,,"bash
+,
+bashdb
+,
+bashate
+,
+bashlex
+,
+bash.static
+,
+bash_kernel
+,
+bash-completion
+,
+colcon-bash",,,15.8MB,,,,,2017-04-16T17:33:11.605221Z,official,https://d1q6f0aelx0por.cloudfront.net/product-logos/bash.png,linux,168,image,2019-04-01T08:06:00.075393Z,5.0.3,FALSE
+piwik,Piwik is the leading open-source analytics platform that gives you more than powerful analytics.,Analytics,https://hub.docker.com/_/piwik,10M+,php:7.1-apache,php,GNU General Public License v3,,,,,,,449MB,,,,,2016-06-03T17:44:47.858039Z,official,https://d1q6f0aelx0por.cloudfront.net/product-logos/6736f825-539b-4a0d-9bff-613036fc75e5-piwik.png,linux,151,image,2019-04-01T08:06:07.993161Z,3.6.0-apache,FALSE
+arangodb,"ArangoDB - a distributed database with a flexible data model for documents, graphs, and key-values.",Databases,https://hub.docker.com/_/arangodb,10M+,debian:jessie,debian,ÿApache License 2.0 ,,,,,,,288MB,,,,,2016-06-01T23:27:00.770734Z,official,https://d1q6f0aelx0por.cloudfront.net/product-logos/079744b5-2546-47ea-ac53-7eb350c59e2e-arangodb.png,linux,148,image,2019-04-01T08:06:09.546998Z,2.8,FALSE
+chronograf,Chronograf is a visualization tool for time series data in InfluxDB.,DevOps Tools,https://hub.docker.com/_/chronograf,10M+,debian:stretch-slim,debian,the GNU Affero General Public License,,,,,,,146MB,,,,,2016-06-09T22:55:36.825071Z,official,https://d1q6f0aelx0por.cloudfront.net/product-logos/fb07f2e4-9168-4a12-a26d-dd421c876e02-chronograf.png,linux,142,image,2019-04-01T08:05:55.538569Z,1.5,TRUE
+iojs,io.js is an npm compatible platform originally based on node.js,,https://hub.docker.com/_/iojs,10M+,buildpack-deps:jessie,buildpack-deps,MIT License,,,,,,,649MB,,,,,2018-09-21T18:01:58.014913Z,official,,linux,129,image,2019-04-01T08:06:07.411813Z,1.8.4,FALSE
+kapacitor,"Kapacitor is an open source framework for processing, monitoring, and alerting on time series data.",DevOps Tools,https://hub.docker.com/_/kapacitor,10M+,buildpack-deps:stretch-curl,buildpack-deps,MiT License,,,,,,,242MB,,,,,2016-06-09T23:06:38.28968Z,official,https://hub.docker.com/public/images/official/kapacitor.png,linux,124,image,2019-04-01T08:06:08.348416Z,1.4,TRUE
+crate,CrateDB is a distributed SQL database handles massive amounts of machine data in real-time.,Databases,https://hub.docker.com/_/crate,10M+,centos:7,centos,Apache License 2.0,,,,,,,651MB,,,,,2016-06-16T00:00:00Z,official,https://d1q6f0aelx0por.cloudfront.net/product-logos/4866f1d2-12fe-476d-9e16-b63f881ab1f3-765a709b-755c-403a-b9a6-a93cb91c8c2d-9e13af36-433d-4456-84c6-02ec9be5ce71-logo-large.png,linux,121,image,2019-04-01T08:06:10.592721Z,3.2.6,FALSE
+xwiki,XWiki: The Advanced Open Source Enterprise Wiki.,,https://hub.docker.com/_/xwiki,10M+,tomcat:8-jre8,tomcat,LGPL 2.1.,,,,,,,1.2GB,,,,,2017-04-17T14:42:06.110011Z,official,https://d1q6f0aelx0por.cloudfront.net/product-logos/xwiki.png,linux,104,image,2019-04-01T08:06:10.198627Z,10,FALSE
+teamspeak,TeamSpeak is software for quality voice communication via the Internet.,,https://hub.docker.com/_/teamspeak,10M+,alpine:3.7,alpine,GNU Public License,,,,,,,21.7MB,,,,,2018-09-21T18:02:58.371316Z,official,,linux,98,image,2019-04-01T08:06:09.868926Z,3.7,FALSE
+flink,Apache Flink? is a powerful open-source distributed stream and batch processing framework.,,https://hub.docker.com/_/flink,10M+,openjdk:8-jre,openjdk,Apache License 2.0,,,,,,,731MB,,,,,2018-09-21T18:01:43.764072Z,official,,linux,91,image,2019-04-01T08:06:01.671224Z,1.6.4-hadoop24-scala_2.11,FALSE
+jruby,JRuby (http://www.jruby.org) is an implementation of Ruby (http://www.ruby-lang.org) on the JVM.,Programming Languages,https://hub.docker.com/_/jruby,10M+,openjdk:8-jre,openjdk,tri EPL/GPL/LGPL license,,,,,,,504MB,,,,,2016-06-02T20:21:14.295864Z,official,https://d1q6f0aelx0por.cloudfront.net/product-logos/e724338f-518a-4a07-bf45-56deff98c2ab-jruby.png,linux,82,image,2019-04-01T08:05:56.465372Z,latest,FALSE
+nats-streaming,"NATS Streaming is an open-source, high-performance, cloud native messaging streaming system.",,https://hub.docker.com/_/nats-streaming,10M+,scratch,scratch,Apache License 2.0,,,,,,,12.9MB,,,,,2018-09-21T18:01:34.210275Z,official,,linux,66,image,2019-04-01T08:05:59.087263Z,0.12.2-linux,FALSE
+groovy,Apache Groovy is a multi-faceted language for the Java platform.,Programming Languages,https://hub.docker.com/_/groovy,10M+,openjdk:8-jdk,openjdk,Apache License 2.0,,,,jdk-groovy,,,477MB,,,,,2017-04-16T17:55:45.535513Z,official,https://d1q6f0aelx0por.cloudfront.net/product-logos/groovy.png,linux,65,image,2019-04-01T08:05:57.575785Z,2.5.6-jdk8,FALSE
+tomee,Apache TomEE is an all-Apache Java EE certified stack where Apache Tomcat is top dog.,Application Frameworks,https://hub.docker.com/_/tomee,10M+,openjdk:8-jre,openjdk,ÿApache License 2.0,,,,,,,491MB,,,,,2016-06-01T01:57:31.639702Z,official,https://d1q6f0aelx0por.cloudfront.net/product-logos/7c177fe9-61ba-43a7-8b48-3367a7d43d72-tomee.png,linux,64,image,2019-04-01T08:06:11.527597Z,8-jre-1.7.5-jaxrs` (*8-jre-1.7.5-jaxrs/Dockerfile*)](https://github.com/tomitribe/docker-tomee/blob/345cfefbfe4ef0956f0ea2caf1af2595111f5a85/8-jre-1.7.5-jaxrs/Dockerfile),FALSE
+haxe,"Haxe is a modern, high level, static typed programming language with multiple compilation targets.",Programming Languages,https://hub.docker.com/_/haxe,10M+,buildpack-deps:stretch-scm,buildpack-deps,"The Haxe Compiler (GPLv2+)
+The Haxe Standard Library (MIT)
+Neko (MIT and others)",,,,,,,308MB,,,,,2017-04-16T18:21:21.254971Z,official,https://d1q6f0aelx0por.cloudfront.net/product-logos/haxe.png,windows,19,image,2019-04-01T08:06:10.95813Z,3.4.7-stretch,FALSE
+rails,Rails is an open-source web application framework written in Ruby.,,https://hub.docker.com/_/rails,5M+,ruby:2.3,ruby,MIT License,,,,"rubygem-rails
+,
+rubygem-rails-deprecated_sanitizer
+,
+rubygem-sass-rails
+,
+rubygem-jquery-rails
+,
+rubygem-rails-dom-testing
+,
+rubygem-haml-rails
+,
+rubygem-sprockets-rails
+,
+rubygem-rails-html-sanitizer
+,
+rubygem-rspec-rails
+,
+rubygem-coffee-rails",,,840MB,,,,,2018-09-21T18:02:18.875912Z,official,,linux,810,image,2019-04-01T08:06:15.35219Z,5.0.1,FALSE
+odoo,Odoo (formerly known as OpenERP) is a suite of open-source business apps.,Application Services,https://hub.docker.com/_/odoo,5M+,debian:stretch,debian,"GNU LESSER GENERAL PUBLIC LICENSE, Version 3",,,,,,,1.16GB,,,,,2016-06-09T22:37:35.970784Z,official,https://d1q6f0aelx0por.cloudfront.net/product-logos/b73cfa1a-20c0-45a8-98fc-9f5e8ddfb4cb-odoo.png,linux,629,image,2019-04-01T08:06:16.138438Z,12.0,FALSE
+oraclelinux,Official Docker builds of Oracle Linux.,Base Images,https://hub.docker.com/_/oraclelinux,5M+,scratch,scratch,GNU General Public License,,,,,,,235MB,,,,,2016-06-03T17:26:04.85536Z,official,https://d1q6f0aelx0por.cloudfront.net/product-logos/96dcddde-c289-4e7e-b4b4-5f897e0eb17c-oraclelinux.png,linux,570,image,2019-04-01T08:06:13.329792Z,7.6,FALSE
+gcc,The GNU Compiler Collection is a compiling system that supports several languages.,DevOps Tools,https://hub.docker.com/_/gcc,5M+,buildpack-deps:jessie,buildpack-deps,GNU GENERAL PUBLIC LICENSE Version 3,,,,gcc,,,1.15GB,,,,,2016-06-01T23:28:25.243716Z,official,https://gcc.gnu.org/img/gccegg-65.png,linux,393,image,2019-04-01T08:06:14.638227Z,5.5.0,FALSE
+opensuse,DEPRECATED - for current images by the openSUSE Project see opensuse/leap and opensuse/tumbleweed.,Operating Systems,https://hub.docker.com/_/opensuse,5M+,scratch,scratch,GNU General Public License version 2,,,,,,,110MB,,,,,2016-06-15T18:41:50.042197Z,official,https://d1q6f0aelx0por.cloudfront.net/product-logos/fb4a3d37-a732-4c87-9798-65667a1018f6-opensuse.png,linux,263,image,2019-04-01T08:06:13.932416Z,42.3,FALSE
+clojure,Clojure is a dialect of Lisp that runs on the JVM.,Programming Languages,https://hub.docker.com/_/clojure,5M+,openjdk:8,openjdk,Eclipse Public License 1.0,,,,,,,644MB,,,,,2016-06-01T23:27:22.878424Z,official,https://d1q6f0aelx0por.cloudfront.net/product-logos/7db3bbd6-5bc5-40a8-8104-03818a8d37f5-clojure.png,linux,245,image,2019-04-01T08:06:14.922152Z,openjdk-8-lein,FALSE
+ros,The Robot Operating System (ROS) is an open source project for building robot applications.,Operating Systems,https://hub.docker.com/_/ros,5M+,ubuntu:trusty,ubuntu,standard three-clause BSD licens,,,,"rospkg
+,
+rosdistro
+,
+colcon-ros",,,1.28GB,,,,,2016-06-01T23:32:22.480935Z,official,https://d1q6f0aelx0por.cloudfront.net/product-logos/a4caf03a-82f9-4f5b-89da-5acf39b60b4d-ros.png,linux,230,image,2019-04-01T08:06:15.572506Z,indigo-ros-core,FALSE
+rust,"Rust is a systems programming language focused on safety, speed, and concurrency.",,https://hub.docker.com/_/rust,5M+,buildpack-deps:stretch,buildpack-deps,"Apache License, Version 2.0
+MIT license",,,,"rustc
+,
+rust-std32",,,1.68GB,,,,,2018-09-21T18:02:28.176649Z,official,,linux,174,image,2019-04-01T08:06:12.370507Z,1.33.0-stretch,FALSE
+irssi,irssi - The IRC client of the future,Application Services,https://hub.docker.com/_/irssi,5M+,debian:stretch-slim,debian,GNU General Public License v2.0,,,"network-basic,productivity",irssi,,,167MB,,,,,2016-06-01T00:03:49.129315Z,official,https://d1q6f0aelx0por.cloudfront.net/product-logos/87a3226c-d223-4d76-bbaa-ff35999a5d61-irssi.png,linux,109,image,2019-04-01T08:06:17.339347Z,1.2.0,FALSE
+orientdb,OrientDB a Multi-Model Open Source NoSQL DBMS that combines graphs and documents.,Databases,https://hub.docker.com/_/orientdb,5M+,openjdk:8-jdk,openjdk,ÿApache License 2.0,,,,,,,149MB,,,,,2016-06-14T21:49:29.096122Z,official,https://d1q6f0aelx0por.cloudfront.net/product-logos/415b9a71-2317-40ca-a410-ef0715caccc2-orientdb.png,linux,107,image,2019-04-01T08:06:14.283749Z,2.0.18,FALSE
+ibmjava,"Official IBM? SDK, Java? Technology Edition Docker Image.",Base Images,https://hub.docker.com/_/ibmjava,5M+,ubuntu:16.04,ubuntu,ÿApache License 2.0,,,,,,,320MB,,,,,2016-11-14T17:21:37.47309Z,official,,linux,66,image,2019-04-01T08:06:13.069856Z,8-jre,FALSE
+matomo,Matomo is the leading open-source analytics platform that gives you more than powerful analytics.,,https://hub.docker.com/_/matomo,5M+,php:7.3-apache,php,GNU General Public License v3,,,,,,,502MB,,,,,2018-09-21T18:02:40.028641Z,official,,linux,64,image,2019-04-01T08:06:13.545267Z,3.9.1-apache,FALSE
+ubuntu-debootstrap,"debootstrap --variant=minbase --components=main,universe --include=inetutils-ping,iproute2 <suite> /",,https://hub.docker.com/_/ubuntu-debootstrap,5M+,scratch,scratch,GPL,,,,,,,87.1MB,,,,,2018-09-21T18:02:12.482133Z,official,,[],40,image,2019-04-01T08:06:14.109625Z,12.04.5,FALSE
